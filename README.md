@@ -36,7 +36,7 @@ Get the most recent stable version of GitUX from our official releases page:
 
 ## 🔐 Security
 
-All releases are cryptographically signed to ensure authenticity and integrity. Always verify the checksums provided with each release.
+All releases will be cryptographically signed to ensure authenticity and integrity. When releases are available, always verify the checksums provided with each release.
 
 ---
 
