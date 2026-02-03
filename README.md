@@ -13,13 +13,44 @@ Get the most recent stable version of GitUX from our official releases page:
 
 **🔗 [Download GitUX Releases](https://github.com/gitux-co/downloads/releases)**
 
-### Supported Platforms
-- **Linux** - Ubuntu 18.04+, Fedora 30+, and other major distributions
+### Pricing
 
-### Installation Options
-1. **Direct Download** - Choose your platform and download the installer
-2. **Package Managers** - Available through popular package managers (coming soon)
-3. **Source Code** - Build from source using the main GitUX repository
+**£24** - One-time licence, lifetime updates.
+
+### Supported Platforms
+
+| Platform | Format | Notes |
+|----------|--------|-------|
+| **macOS** | `.dmg`, `.zip` | Apple Silicon (arm64) |
+| **Windows** | `.exe` | Installer and portable executable |
+| **Linux** | `.deb` | Debian/Ubuntu based distributions |
+| **Linux** | `.flatpak` | Flatpak-enabled distributions |
+
+### Installation
+
+#### macOS
+1. Download the `.dmg` file
+2. Open the disk image and drag GitUX to your Applications folder
+3. **Important:** Before first launch, open Terminal and run:
+   ```bash
+   xattr -cr /Applications/GitUX.app
+   ```
+   This removes the quarantine attribute that causes the "app is damaged" error on unsigned apps.
+
+#### Windows
+1. Download the `.exe` installer or portable version
+2. Run the installer and follow the setup wizard
+3. Launch GitUX from the Start menu or desktop shortcut
+
+#### Linux (Debian/Ubuntu)
+```bash
+sudo dpkg -i gitux_*.deb
+```
+
+#### Linux (Flatpak)
+```bash
+flatpak install gitux_*.flatpak
+```
 
 ## 🛠️ Quick Start
 
